@@ -19,4 +19,8 @@ public class KanBan {
         System.out.println("Welcome " + firstName + " " + lastName + "it is great to see you again.") ;
     }
 }
+/*References listed below
 
+Farrell, J. (2019). Java Programming 9th Edition. Cengage Learning.
+
+OpenAI. (2024). ChatGPT (Dec 20 version) [Large language model]. https://chat.openai.com*/
