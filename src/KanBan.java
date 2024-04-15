@@ -11,7 +11,6 @@ public class KanBan {
         Login kanBan = new Login();
         String firstName = kanBan.promptFirstName();
         String lastName = kanBan.promptLastName();
-
         while (true) {
             boolean isUserNameValid = kanBan.checkUserName();
             boolean isPasswordComplex = kanBan.checkPasswordComplexity();
