@@ -25,32 +25,29 @@ public class Login{
     }
     public boolean checkUserName() {
         Scanner UserInput = new Scanner(System.in);
-
-            System.out.println("Please enter a username that contains no more than characters and must have an underscore.");
-            String registeredUsername = UserInput.nextLine();
-            return registeredUsername.length() < 5 && !registeredUsername.contains("_");
-
-
+        System.out.println("Please enter a username that contains no more than 5 characters and must have an underscore.");
+        String registeredUsername = UserInput.nextLine();
+        return registeredUsername.length() <= 5 && registeredUsername.contains("_");
     }
+
     public boolean checkPasswordComplexity() {
         Scanner UserInput = new Scanner(System.in);
-
         System.out.println("Please enter a password that contains at least 8 characters, a capital letter, a number and a special character.");
         String registeredPassword = UserInput.nextLine();
         return registeredPassword.matches("(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*]).{8,}");
     }
     public String registerUser(boolean checkUserName, boolean checkPasswordComplexity) {
-        if (checkUserName && checkPasswordComplexity) {
-            return "User successfully captured.\nUser password successfully captured.";
+        if (!checkUserName && !checkPasswordComplexity) {
+            System.out.println("Both your username and password are not correctly formatted, please ensure that you have met the required complexity. \nUser registration failed.");
         } else if (checkUserName && !checkPasswordComplexity) {
-            System.out.println("Password is not correctly formatted, please ensure that the password contains at least 8 characters, a capital letter, a number, and a special character. \n User registration failed.");
-
-        } else if (!checkUserName && checkPasswordComplexity) {
-            System.out.println("Username is not correctly formatted, please ensure that the username contains an underscore and is no more than 5 characters in length. \n User registration failed.");
-
+            System.out.println("Password is not correctly formatted, please ensure that the password contains at least 8 characters, a capital letter, a number, and a special character. \nUser registration failed.");
         }
-        else if (!checkUserName && !checkPasswordComplexity) {
-            System.out.println(" Both your username and password is not correctly formatted, please ensure that the you have meet the required complexity \n User registration failed.");
+        else if (!checkUserName && checkPasswordComplexity) {
+            System.out.println("Username is not correctly formatted, please ensure that the username contains an underscore and is no more than 5 characters in length. \nUser registration failed.");
+        }
+
+        else if (checkUserName && checkPasswordComplexity) {
+            return "User successfully captured.\nUser password successfully captured.";
         }
         return null;
     }

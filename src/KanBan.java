@@ -11,10 +11,12 @@ public class KanBan {
         Login kanBan = new Login();
         String firstName = kanBan.promptFirstName();
         String lastName = kanBan.promptLastName();
+
         while (true) {
             boolean isUserNameValid = kanBan.checkUserName();
             boolean isPasswordComplex = kanBan.checkPasswordComplexity();
-            kanBan.registerUser(isUserNameValid, isPasswordComplex);
+            String registrationResult = kanBan.registerUser(isUserNameValid, isPasswordComplex);
+            System.out.println(registrationResult);
             if (isUserNameValid && isPasswordComplex) {
                 break;
             }
@@ -30,6 +32,9 @@ public class KanBan {
                 break;
             }
 
+
         }
+        System.out.println("Welcome" + firstName + " " + lastName + "its great to see you again");
     }
+
 }
