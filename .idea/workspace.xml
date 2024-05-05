@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9e9d89-df22-45b9-8a0b-dc30ff3b8d60" name="Changes" comment="fixed some things that the ide cuased">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST10334462KsnBanApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ST10334462KsnBanApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KanBan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KanBan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoginUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginUserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RegisterUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegisterUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RegisterUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegisterUserTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="2f9e9d89-df22-45b9-8a0b-dc30ff3b8d60" name="Changes" comment="fixed some things that the ide cuased" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +46,6 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "fixed-version",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/cash/Downloads/junit-platform-console-standalone-1.6.0.jar",
@@ -80,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1714912375227</updated>
-      <workItem from="1714912376161" duration="6037000" />
+      <workItem from="1714912376161" duration="6357000" />
     </task>
     <task id="LOCAL-00001" summary="fixed some things that the ide cuased">
       <option name="closed" value="true" />
@@ -98,7 +89,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714913236360</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixed some things that the ide cuased">
+      <option name="closed" value="true" />
+      <created>1714919451125</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714919451126</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
