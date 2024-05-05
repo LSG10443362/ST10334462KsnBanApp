@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 public class LoginUserTest {
     @Test
     public void testLoginUsernameFalse() {
-        String username = "kyle";
+        String username = "kyle!!!!";
         RegisterUser.registerUsername = username;
         String expectedMessage = "Username is incorrect, please try again.";
         String actualMessage = LoginUser.loginUsername();
