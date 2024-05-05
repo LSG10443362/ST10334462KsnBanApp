@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9e9d89-df22-45b9-8a0b-dc30ff3b8d60" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="2f9e9d89-df22-45b9-8a0b-dc30ff3b8d60" name="Changes" comment="fixed some things that the ide cuased">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ST10334462KsnBanApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ST10334462KsnBanApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KanBan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KanBan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RegisterUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegisterUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RegisterUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegisterUserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,10 +21,16 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="better" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="LoginUserTest" />
+    </enabled-run-configurations>
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="bqtu08d3" />
@@ -39,10 +46,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.KanBan.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "JUnit.LoginUserTest.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "better",
+    "git-widget-placeholder": "fixed-version",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/cash/Downloads/junit-platform-console-standalone-1.6.0.jar",
     "node.js.detected.package.eslint": "true",
@@ -67,11 +80,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1714912375227</updated>
-      <workItem from="1714912376161" duration="553000" />
+      <workItem from="1714912376161" duration="6037000" />
     </task>
+    <task id="LOCAL-00001" summary="fixed some things that the ide cuased">
+      <option name="closed" value="true" />
+      <created>1714913175894</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714913175894</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fixed some things that the ide cuased">
+      <option name="closed" value="true" />
+      <created>1714913236360</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714913236360</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixed some things that the ide cuased" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed some things that the ide cuased" />
   </component>
 </project>
