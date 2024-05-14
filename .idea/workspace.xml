@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9e9d89-df22-45b9-8a0b-dc30ff3b8d60" name="Changes" comment="fixed some things that the ide cuased">
-      <change afterPath="$PROJECT_DIR$/src/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KanBan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KanBan.java" afterDir="false" />
-    </list>
+    <list default="true" id="2f9e9d89-df22-45b9-8a0b-dc30ff3b8d60" name="Changes" comment="part 2 starting" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="better" />
+        <entry key="$PROJECT_DIR$" value="fixed-version" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -83,7 +79,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "fixed-version",
+    "git-widget-placeholder": "part-2",
     "go.import.settings.migrated": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/cash/Downloads/junit-platform-console-standalone-1.6.0.jar",
@@ -124,6 +120,7 @@
       <workItem from="1714924296751" duration="1265000" />
       <workItem from="1715523552411" duration="6717000" />
       <workItem from="1715707641789" duration="9439000" />
+      <workItem from="1715718119245" duration="315000" />
     </task>
     <task id="LOCAL-00001" summary="fixed some things that the ide cuased">
       <option name="closed" value="true" />
@@ -165,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714928155682</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="part 2 starting">
+      <option name="closed" value="true" />
+      <created>1715718221461</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715718221461</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +178,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixed some things that the ide cuased" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed some things that the ide cuased" />
+    <MESSAGE value="part 2 starting" />
+    <option name="LAST_COMMIT_MESSAGE" value="part 2 starting" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
