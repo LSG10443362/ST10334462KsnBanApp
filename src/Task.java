@@ -125,7 +125,7 @@ public class Task {
     }
 
     private String generateTaskId(String taskName, String developerLastName) {
-        return taskName.substring(0, 2) + ";" + developerLastName.substring(developerLastName.length() - 3);
+        return taskName.substring(0, 2) + ":" + developerLastName.substring(developerLastName.length() - 3);
     }
 
 
