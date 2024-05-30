@@ -1,4 +1,4 @@
-package tests;
+package test.java;
 
 import main.LoginUser;
 import main.RegisterUser;

@@ -1,4 +1,4 @@
-package tests;
+package test.java;
 
 public class TaskTest {
 }

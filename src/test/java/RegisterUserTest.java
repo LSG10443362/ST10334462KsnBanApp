@@ -1,4 +1,4 @@
-package tests;
+package test.java;
 
 import main.RegisterUser;
 import org.junit.jupiter.api.Test;
