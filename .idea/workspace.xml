@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9e9d89-df22-45b9-8a0b-dc30ff3b8d60" name="Changes" comment="part 2">
+    <list default="true" id="2f9e9d89-df22-45b9-8a0b-dc30ff3b8d60" name="Changes" comment="added gradle dependency">
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +103,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -136,7 +145,8 @@
       <workItem from="1716647046148" duration="112000" />
       <workItem from="1716836435569" duration="38000" />
       <workItem from="1717059657170" duration="10788000" />
-      <workItem from="1717087029197" duration="4650000" />
+      <workItem from="1717087029197" duration="5923000" />
+      <workItem from="1717097011900" duration="1285000" />
     </task>
     <task id="LOCAL-00001" summary="fixed some things that the ide cuased">
       <option name="closed" value="true" />
@@ -194,7 +204,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717095285976</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added the distribution: 'adopt' to the yml file">
+      <option name="closed" value="true" />
+      <created>1717095892713</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717095892713</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added the distribution: 'adopt' to the yml file">
+      <option name="closed" value="true" />
+      <created>1717096138221</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717096138221</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +241,9 @@
     <MESSAGE value="fixed some things that the ide cuased" />
     <MESSAGE value="part 2 starting" />
     <MESSAGE value="part 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="part 2" />
+    <MESSAGE value="added the distribution: 'adopt' to the yml file" />
+    <MESSAGE value="added gradle dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="added gradle dependency" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
