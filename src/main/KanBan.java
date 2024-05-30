@@ -41,7 +41,7 @@ public class KanBan {
             // Initialize tasks array in main.Task class
             Task.initializeTasks(maxTasks);
             while (!quit) {
-                System.out.println("1. Add task\n2. Display task details\n3. Quit application");
+                System.out.println("1. Add task\n2. Display task details\n3. Quit application\n4. Show Report");
                 int choice = userInput.nextInt();
                 userInput.nextLine();
                 switch (choice) {
@@ -57,6 +57,9 @@ public class KanBan {
                         break;
                     case 3:
                         quit = true;
+                        break;
+                    case 4:
+                        System.out.println("Coming Soon");
                         break;
                     default:
                         System.out.println("Invalid choice. Please try again.");
