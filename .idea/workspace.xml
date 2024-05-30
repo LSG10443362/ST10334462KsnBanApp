@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9e9d89-df22-45b9-8a0b-dc30ff3b8d60" name="Changes" comment="reconfigured the testing">
+    <list default="true" id="2f9e9d89-df22-45b9-8a0b-dc30ff3b8d60" name="Changes" comment="refactored test directory and files within">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/KanBanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/KanBanTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/LoginUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginUserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/RegisterUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegisterUserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/TaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TaskTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +101,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cash\Downloads\ST10334462KanBanAppPOEpart1(1)\ST10334462KsnBanApp\src\test\java" />
+      <recent name="C:\Users\cash\Downloads\ST10334462KanBanAppPOEpart1(1)\ST10334462KsnBanApp\src\test" />
       <recent name="C:\Users\cash\Downloads\ST10334462KanBanAppPOEpart1(1)\ST10334462KsnBanApp\src" />
       <recent name="C:\Users\cash\Downloads\ST10334462KanBanAppPOEpart1(1)\ST10334462KsnBanApp\src\tests" />
     </key>
@@ -141,7 +140,7 @@
       <workItem from="1716836435569" duration="38000" />
       <workItem from="1717059657170" duration="10788000" />
       <workItem from="1717087029197" duration="5923000" />
-      <workItem from="1717097011900" duration="2361000" />
+      <workItem from="1717097011900" duration="3447000" />
     </task>
     <task id="LOCAL-00001" summary="fixed some things that the ide cuased">
       <option name="closed" value="true" />
@@ -231,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717098838428</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="refactored test directory and files within">
+      <option name="closed" value="true" />
+      <created>1717099625215</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1717099625215</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +262,8 @@
     <MESSAGE value="added the distribution: 'adopt' to the yml file" />
     <MESSAGE value="added gradle dependency" />
     <MESSAGE value="reconfigured the testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="reconfigured the testing" />
+    <MESSAGE value="refactored test directory and files within" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored test directory and files within" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
