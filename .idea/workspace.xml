@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9e9d89-df22-45b9-8a0b-dc30ff3b8d60" name="Changes" comment="part 2 starting">
-      <change afterPath="$PROJECT_DIR$/src/tests/KanBanTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/TaskTest.java" afterDir="false" />
+    <list default="true" id="2f9e9d89-df22-45b9-8a0b-dc30ff3b8d60" name="Changes" comment="part 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KanBan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/KanBan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KanBanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/LoginUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoginUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/LoginUserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RegisterUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/RegisterUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RegisterUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/RegisterUserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Task.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +27,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -146,7 +136,7 @@
       <workItem from="1716647046148" duration="112000" />
       <workItem from="1716836435569" duration="38000" />
       <workItem from="1717059657170" duration="10788000" />
-      <workItem from="1717087029197" duration="3700000" />
+      <workItem from="1717087029197" duration="4650000" />
     </task>
     <task id="LOCAL-00001" summary="fixed some things that the ide cuased">
       <option name="closed" value="true" />
@@ -196,16 +186,36 @@
       <option name="project" value="LOCAL" />
       <updated>1715718221461</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="part 2">
+      <option name="closed" value="true" />
+      <created>1717095285976</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717095285976</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixed some things that the ide cuased" />
     <MESSAGE value="part 2 starting" />
-    <option name="LAST_COMMIT_MESSAGE" value="part 2 starting" />
+    <MESSAGE value="part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="part 2" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
