@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9e9d89-df22-45b9-8a0b-dc30ff3b8d60" name="Changes" comment="part 2 starting" />
+    <list default="true" id="2f9e9d89-df22-45b9-8a0b-dc30ff3b8d60" name="Changes" comment="part 2 starting">
+      <change afterPath="$PROJECT_DIR$/src/tests/KanBanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/TaskTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KanBan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/KanBan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KanBanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/LoginUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/LoginUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RegisterUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/RegisterUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RegisterUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/RegisterUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Task.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,45 +75,49 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.KanBan.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "true",
-    "JUnit.LoginUserTest.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "part-2",
-    "go.import.settings.migrated": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/cash/Downloads/junit-platform-console-standalone-1.6.0.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
-    "org.rust.first.attach.projects": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.KanBan.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;JUnit.LoginUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;part-2&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/cash/Downloads/junit-platform-console-standalone-1.6.0.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
+    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\cash\Downloads\ST10334462KanBanAppPOEpart1(1)\ST10334462KsnBanApp\src" />
+      <recent name="C:\Users\cash\Downloads\ST10334462KanBanAppPOEpart1(1)\ST10334462KsnBanApp\src\tests" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="main" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
@@ -121,6 +136,17 @@
       <workItem from="1715523552411" duration="6717000" />
       <workItem from="1715707641789" duration="9439000" />
       <workItem from="1715718119245" duration="315000" />
+      <workItem from="1715948147817" duration="1378000" />
+      <workItem from="1715988574515" duration="659000" />
+      <workItem from="1716055001010" duration="611000" />
+      <workItem from="1716135516285" duration="2200000" />
+      <workItem from="1716295825209" duration="466000" />
+      <workItem from="1716299005840" duration="1914000" />
+      <workItem from="1716378593695" duration="1479000" />
+      <workItem from="1716647046148" duration="112000" />
+      <workItem from="1716836435569" duration="38000" />
+      <workItem from="1717059657170" duration="10788000" />
+      <workItem from="1717087029197" duration="3700000" />
     </task>
     <task id="LOCAL-00001" summary="fixed some things that the ide cuased">
       <option name="closed" value="true" />

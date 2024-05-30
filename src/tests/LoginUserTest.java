@@ -1,3 +1,7 @@
+package tests;
+
+import main.LoginUser;
+import main.RegisterUser;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -7,12 +11,20 @@ public class LoginUserTest {
     @Test
     public void testSetUsernameInput() {
         String expectedUsername = "kyl_1";
-        LoginUser.setUsernameInput(expectedUsername);
-        String actualUsername = LoginUser.username;
+        LoginUser loginUser = new LoginUser();
+        loginUser.setUsernameInput(expectedUsername);
+        String actualUsername = loginUser.getUsername();
         Assertions.assertEquals(expectedUsername, actualUsername);
     }
 
     @Test
+    public void testSetPasswordInput() {
+        String expectedPassword = "correctPassword";
+        LoginUser loginUser = new LoginUser();
+        loginUser.setPasswordInput(expectedPassword);
+        String actualPassword = loginUser.getPassword();
+        Assertions.assertEquals(expectedPassword, actualPassword);
+    } @Test
     public void testCheckUsernameMatchTrue() {
         String username = "kyl_1";
         RegisterUser.registerUsername = username;
@@ -28,13 +40,7 @@ public class LoginUserTest {
         Assertions.assertFalse(actual);
     }
 
-    @Test
-    public void testSetPasswordInput() {
-        String expectedPassword = "correctPassword";
-        LoginUser.setPasswordInput(expectedPassword);
-        String actualPassword = LoginUser.password;
-        Assertions.assertEquals(expectedPassword, actualPassword);
-    }
+
 
     @Test
     public void testCheckPasswordMatchTrue() {

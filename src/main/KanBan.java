@@ -1,13 +1,15 @@
-import java.util.ArrayList;
-import java.util.List;
+package main;
+
+import main.Task;
+
 import java.util.Scanner;
 
 
 public class KanBan {
-    private static final List<Task> tasks = new ArrayList<>();
+
 
     public static void main(String[] args) {
-        System.out.println("Welcome to the KanBan App");
+        System.out.println("Welcome to the main.KanBan App");
         Scanner userInput = new Scanner(System.in);
 
         /*System.out.println("Please Enter Your First Name");
@@ -15,13 +17,13 @@ public class KanBan {
         System.out.println("Please Enter Your Last Name");
         String lastName = userInput.nextLine();
 
-        RegisterUser.registerUsername();
-        RegisterUser.registerUserPassword();
+        main.RegisterUser.registerUsername();
+        main.RegisterUser.registerUserPassword();
 
 
         boolean loginSuccess;
         do {
-            loginSuccess = LoginUser.login();
+            loginSuccess = main.LoginUser.login();
             if (!loginSuccess) {
                 System.out.println("Login failed. Please try again.");
             }
@@ -31,6 +33,13 @@ public class KanBan {
 
         if (loginSuccess) {
             boolean quit = false;
+
+            System.out.println("Please enter the maximum number of tasks:");
+            int maxTasks = userInput.nextInt();
+            userInput.nextLine(); // consume newline
+
+            // Initialize tasks array in main.Task class
+            Task.initializeTasks(maxTasks);
             while (!quit) {
                 System.out.println("1. Add task\n2. Display task details\n3. Quit application");
                 int choice = userInput.nextInt();
@@ -40,7 +49,7 @@ public class KanBan {
                         Task.addTask(userInput);
                         break;
                     case 2:
-                        if (Task.getTasks().isEmpty()) {
+                        if (Task.getTasks().length == 0) {
                             System.out.println("No tasks to display.");
                         } else {
                             Task.displayTaskDetails();

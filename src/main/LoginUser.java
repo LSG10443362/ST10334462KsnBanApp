@@ -1,3 +1,5 @@
+package main;
+
 import java.util.Scanner;
 
 public class LoginUser {
@@ -5,6 +7,14 @@ public class LoginUser {
 
     static String username;
     static String password;
+    public String getUsername() {
+        return username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
 
     public static void setUsernameInput() {
         if (loginUserInput != null) {
