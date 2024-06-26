@@ -1,12 +1,9 @@
-package test.java;
-
 import main.LoginUser;
 import main.RegisterUser;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayInputStream;
-
 public class LoginUserTest {
     @Test
     public void testSetUsernameInput() {

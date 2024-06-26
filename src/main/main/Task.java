@@ -1,5 +1,4 @@
 package main;
-
 import javax.swing.*;
 import java.util.Scanner;
 
@@ -132,7 +131,56 @@ public class Task {
                 "Task ID: " + taskId + "\n" +
                 "Task Status: " + taskStatus;
     }
-
+    /*public static void searchTask(String searchItem, String searchType) {
+        for (Task task : tasks) {
+            if (searchType.equals("taskName") && task.getTaskName().equals(searchParameter)) {
+                System.out.println("Task Name: " + task.getTaskName());
+                System.out.println("Developer: " + task.getDeveloperFirstName() + " " + task.getDeveloperLastName());
+                System.out.println("Task Status: " + task.getTaskStatus());
+                return;
+            } else if (searchType.equals("developerName") && (task.getDeveloperFirstName().equals(searchParameter) || task.getDeveloperLastName().equals(searchParameter))) {
+                System.out.println("Task Name: " + task.getTaskName());
+                System.out.println("Task Status: " + task.getTaskStatus());
+            }
+        }
+    }*/
+    public static void searchTask(String searchItem, String searchType) {
+        boolean taskFound = false;
+        for (Task task : tasks) {
+            if (task != null) {
+                if (searchType.equals("taskName") && task.getTaskName().equals(searchItem)) {
+                    System.out.println("Task Name: " + task.getTaskName());
+                    System.out.println("Developer: " + task.getDeveloperFirstName() + " " + task.getDeveloperLastName());
+                    System.out.println("Task Status: " + task.getTaskStatus());
+                    taskFound = true;
+                } else if (searchType.equals("developerName") && (task.getDeveloperFirstName().equals(searchItem) || task.getDeveloperLastName().equals(searchItem))) {
+                    System.out.println("Task Name: " + task.getTaskName());
+                    System.out.println("Task Status: " + task.getTaskStatus());
+                    taskFound = true;
+                }
+            }
+        }
+        if (!taskFound) {
+            System.out.println("No task found.");
+        }
+    }
+    public static void deleteTask(String searchItem, String searchType) {
+        for (int i = 0; i < tasks.length; i++) {
+            Task task = tasks[i];
+            if (task != null) {
+                if (searchType.equals("taskName") && task.getTaskName().equals(searchItem)) {
+                    tasks[i] = null;
+                    System.out.println("Task with name: " + searchItem + " has been deleted.");
+                    return;
+                } else if (searchType.equals("developerName") && (task.getDeveloperFirstName().equals(searchItem) || task.getDeveloperLastName().equals(searchItem))) {
+                    tasks[i] = null;
+                    System.out.println("Task assigned to developer: " + searchItem + " has been deleted.");
+                    return;
+                }
+            }
+        }
+        System.out.println("No task found .");
+    }
     public static void displayTaskDetails() {
         int totalHours = 0;
 

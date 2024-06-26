@@ -1,15 +1,10 @@
 package main;
-
-import main.Task;
-
 import java.util.Scanner;
-
-
 public class KanBan {
 
 
     public static void main(String[] args) {
-        System.out.println("Welcome to the main.KanBan App");
+        System.out.println("Welcome to the KanBan App");
         Scanner userInput = new Scanner(System.in);
 
         /*System.out.println("Please Enter Your First Name");
@@ -60,6 +55,13 @@ public class KanBan {
                         break;
                     case 4:
                         System.out.println("Coming Soon");
+                        break;
+                    case 5:
+                        System.out.println("Search by task name or developer name? (taskName/developerName)");
+                        String searchType = userInput.nextLine();
+                        System.out.println("Enter the search value:");
+                        String searchItem = userInput.nextLine();
+                        Task.searchTask(searchItem, searchType);
                         break;
                     default:
                         System.out.println("Invalid choice. Please try again.");
